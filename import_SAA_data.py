@@ -247,6 +247,11 @@ SAA_16_24_tot = subtract_first_value_get_tot(SAA_16_24_x, SAA_16_24_y,
                                                   smoothSwitch = True, # Applies 5 day moving window (n = 15)
                                                   dailySwitch = True) # Resamples to daily time resolution
 
+### Export to CSV
+SAA_16_24_path = os.path.join(data_dir, "SAA_16_24_tot.csv")
+SAA_16_24_tot.to_csv(SAA_16_24_path, index=False)
+
+
 # =============================================================================
 # # OPTIONAL:
 # # Clip data after 2016-04-01
