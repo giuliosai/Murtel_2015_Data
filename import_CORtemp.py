@@ -92,3 +92,11 @@ temp_hole_87 = temp_hole_87_interpolated[temp_hole_87_interpolated['time'].dt.ye
 
 temp_hole_15 = temp_hole_15_interpolated[temp_hole_15_interpolated['time'].dt.year <= 2023]
 
+### Export to CSV
+
+temp_hole_87_export_path = os.path.join(data_dir, "temp_hole_87.csv")
+temp_hole_87.to_csv(temp_hole_87_export_path, index=False)
+
+temp_hole_15_export_path = os.path.join(data_dir, "temp_hole_15.csv")
+temp_hole_15.to_csv(temp_hole_15_export_path, index=False)
+
