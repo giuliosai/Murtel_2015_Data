@@ -16,7 +16,7 @@ The inclinometer (SAA) data consists of MATLAB files which are the output from t
 
 ## Borehole temperature data
 
-Both the temperature record from the 1987 and 2015 boreholes is available here. Note that the temperature data can also be accessed via the [PERMOS data portal] (https://www.permos.ch/data-portal).  
+Both the temperature record from the 1987 and 2015 boreholes is available here. Note that the temperature data can also be accessed via the [PERMOS data portal](https://www.permos.ch/data-portal).  
 
 **Instructions:** Run the script _import_CORtemp.py_ to import the borehole temperature data from both boreholes, and fill data gaps.
 
