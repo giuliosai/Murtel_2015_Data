@@ -7,6 +7,7 @@ The dataset presented here is accompanying the publication _"Multi-annual and se
    ```bash
    git clone https://github.com/giuliosai/Murtel_2015_Data.git
    ```
+2. Set the working directory to the Murtel_2015_Data folder now created on your disk.
 
 ## Borehole deformation data (SAA)
 
@@ -32,4 +33,4 @@ The temperature records from the 1987 and 2015 boreholes are provided in this re
 
 The meteorological data comes from the _in situ_ weather station installed by [PERMOS](https://www.permos.ch/data-portal/meteo-data) in 1997. The data can also be requested via PERMOS directly. It measures a long list of meteorological variables, however, for the purpose of this study only a subset is kept. The MeteoSwiss station at Piz Corvatsch is also used for the precipitation and temperature data. This data can be requested by contacting MeteoSwiss. The PERMA-XT dataset used for its _in situ_ precipitation measurements can be accessed through [PERMOS](https://www.permos.ch/doi/permos-spec-2023-1). 
 
-**Instructions:** Run the script _import_meteo.py_ to import the meteorological data. 
+**Instructions:** Run the script _import_meteo.py_ to import the meteorological data, organize and clean to export the daily time series of PERMOS and PERMA-XT meteorological data useful for this study. The second part of the script further processes the data to fill gaps in the air temperature series. 
