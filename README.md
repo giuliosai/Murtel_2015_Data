@@ -7,7 +7,7 @@ The dataset presented here is accompanying the publication _"Multi-annual and se
    ```bash
    git clone https://github.com/giuliosai/Murtel_2015_Data.git
    ```
-2. Set the working directory to the Murtel_2015_Data folder now created on your disk.
+2. In your code viewer, set the working directory to the Murtel_2015_Data folder now created on your disk.
 
 ## Borehole deformation data (SAA)
 
