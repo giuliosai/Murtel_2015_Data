@@ -10,7 +10,7 @@ The dataset presented here is accompanying the publication _"Multi-annual and se
 
 ## Borehole deformation data (SAA)
 
-The inclinometer (SAA) data consists of MATLAB files which are the output from the Mesurand software which converts raw data (angles) to useful position data. The data is split into 2016-17, 2017-18 and 2018-23 periods. Note that the one for the 2018-2023 period is missing as it is too large to upload to GitHub.
+The inclinometer (SAA) data consists of MATLAB files which are the output from the Mesurand software which converts raw data (angles) to useful position data. The data is split into 2016-17, 2017-18 and 2018-23 periods. Note that the one for the 2018-2023 period is missing as it is too large, but can be found in the Zenodo data publication (*ADD LINK*).
 
 **Instructions:** Run the script _import_SAA.py_ to import the SAA data, extract variables out of the MATLAB files, clean the data and export into a useful CSV format.
 
@@ -20,7 +20,7 @@ The GNSS surface displacement data from 2016 to 2023 is provided by Jan Beutel a
 
 ## Geodetic annual displacement data
 
-The geodetic annual surface displacement data from 2009 to present can be accessed from the PERMOS data portal ("[Rock glacier velocity](https://www.permos.ch/data-portal/rock-glacier-velocities)"). Measured annual typically in late August. In this study the marker on the same boulder as the GNSS station (one also closest to borehole) is the only one used. 
+The geodetic annual surface displacement data from 2009 to present can be accessed from the PERMOS data portal ("[Rock glacier velocity](https://www.permos.ch/data-portal/rock-glacier-velocities)"). Measured annual typically in late August. In this study we only used the marker on the same boulder as the GNSS station (one also closest to borehole). 
 
 ## Borehole temperature data
 
