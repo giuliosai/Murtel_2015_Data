@@ -21,7 +21,7 @@ The GNSS surface displacement data from 2016 to 2023 is provided by Jan Beutel a
 
 ## Geodetic annual displacement data
 
-The geodetic annual surface displacement data from 2009 to present can be accessed from the PERMOS data portal ("[Rock glacier velocity](https://www.permos.ch/data-portal/rock-glacier-velocities)"). Measured annual typically in late August. In this study we only used the marker on the same boulder as the GNSS station (one also closest to borehole). 
+The geodetic annual surface displacement data from 2009 to present can be accessed from the PERMOS data portal ("[Rock glacier velocity](https://www.permos.ch/data-portal/rock-glacier-velocities)"). Measured annual typically in late August. In this study we only used the COR_021 marker located on the same boulder as the GNSS station and closest to the 2015 borehole. 
 
 ## Borehole temperature data
 
