@@ -11,7 +11,7 @@ The dataset presented here is accompanying the publication _"Multi-annual and se
 
 ## Borehole deformation data (SAA)
 
-The inclinometer (SAA) data consists of MATLAB files which are the output from the Mesurand software which converts raw data (angles) to useful position data. The data is split into 2016-17, 2017-18 and 2018-23 periods. Note that the one for the 2018-2023 period is missing as it is too large, but can be found in the Zenodo data publication (*LINK TO BE ADDED*).
+The inclinometer (SAA) data consists of MATLAB files which are the output from the Mesurand software which converts raw data (angles) to useful position data. The data is split into 2016-17, 2017-18 and 2018-23 periods. Note that the one for the 2018-2023 period is missing as it is too large, but can be found in the [Zenodo data publication](https://doi.org/10.5281/zenodo.15782681).
 
 **Instructions:** Make sure you have added the missing _multi_saa_allcart_18_23.mat_ file in the SAA_data subfolder. Run the script _import_SAA.py_ to import the SAA data, extract variables out of the MATLAB files, clean the data and export into a useful CSV format. The script also contains procedures developed to resample the data to various temporal resolutions, calculate the vertical strain rate, calculate layer-specific deformation both as absolute and percentage values.
 
